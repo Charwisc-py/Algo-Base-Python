@@ -1,5 +1,6 @@
 import random
 
+#example shuffled list
 x = list(range(1, 101))
 random.shuffle(x)
 
@@ -127,6 +128,7 @@ class Sort:
         return self.arr
 
 
-print(Sort(x).tim_sort())
+#example
+print(Sort(x).quick_sort())
 
     
